@@ -5,4 +5,5 @@
 .project-card .card .card-body .card-title {
 	font-family: var(--fontB);
 	font-size: 2rem;
+	color: var(--text-color);
 }

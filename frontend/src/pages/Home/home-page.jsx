@@ -17,7 +17,7 @@ function HomePage() {
 	return (
 		<div>
 			<HeroSection />
-			<SectionsTitle title='Our Story' />
+			<SectionsTitle title='عن دوّن' />
 
 			<TowColumneSection img={TT}>
 				<p>
@@ -25,7 +25,7 @@ function HomePage() {
 					ut labore
 				</p>
 			</TowColumneSection>
-			<SectionsTitle title='Projects' />
+			<SectionsTitle title='المشاريع' />
 			<Container>
 				<Row>
 					<Col lg={4}>
@@ -41,7 +41,7 @@ function HomePage() {
 				<CustomButton>View More</CustomButton>
 			</Container>
 			<div style={{ background: '#e9ecef' }}>
-				<SectionsTitle title='Blog' />
+				<SectionsTitle title='المقالات' />
 
 				<Container>
 					<CarouselComponent>
@@ -57,15 +57,15 @@ function HomePage() {
 					</CarouselComponent>
 				</Container>
 			</div>
-			<SectionsTitle title='Contact Us' />
+			<SectionsTitle title='التواصل معانا' />
 			<Container>
 				<TowColumneSection img={CC}>
-					<h2>We can help you ?</h2>
-					<CustomButton>Contact Us</CustomButton>
+					<h2>هل يمكننا مساعدتك ؟</h2>
+					<CustomButton>تواصل</CustomButton>
 				</TowColumneSection>
 			</Container>
 			<div style={{ background: '#e9ecef' }}>
-				<SectionsTitle title='Comments' />
+				<SectionsTitle title='الاراء' />
 				<Container>
 					<CarouselComponent>
 						<Carousel.Item>
@@ -85,3 +85,5 @@ function HomePage() {
 }
 
 export default HomePage
+
+// TODO:

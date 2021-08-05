@@ -10,13 +10,13 @@ function HeroSection() {
 			<div className='showcase-wrapper'>
 				<div className='hero-info'>
 					<Container>
-						<h1>Dawn - ‫دون‬</h1>
+						<h1>Dawn - ‫دوّن‬</h1>
 						<p>
 							دون سطور الغد. مؤسسة بنيت للاسهام في تدوين المستقبل <br />
 							عن طريق المشاركة المعرفية ونشر العلم النافع
 						</p>
 						<a href='#about' className='more-info'>
-							Read More
+							معرفة المزيد
 						</a>
 					</Container>
 				</div>

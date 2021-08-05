@@ -50,22 +50,22 @@ function TopNav() {
 						</Dropdown.Menu>
 					</Dropdown>
 					<Link to='/' className='nav__link'>
-						Home
+						الرئيسية
 					</Link>
 					<Link to='/home' className='nav__link '>
-						Blog
+						المقالات
 					</Link>
 					<Link to='/story' className='nav__link '>
-						Our Story
+						قصتنا
 					</Link>
 					<Link to='/contact' className='nav__link '>
-						Team
+						فريق العمل
 					</Link>
 					<Link to='/contact' className='nav__link '>
-						Projects
+						المشاريع
 					</Link>
 					<Link to='/contact' className='nav__link '>
-						Contact Us
+						تواصل معنا
 					</Link>
 				</nav>
 
@@ -103,22 +103,22 @@ function TopNav() {
 							</Nav>
 							<Nav>
 								<Link className='nav-link' to='#deets'>
-									Home
+									الرئيسية
 								</Link>
 								<Link className='nav-link' to='#memes'>
-									Blog
+									المقالات
 								</Link>
 								<Link className='nav-link' to='#deets'>
-									Our Story
+									قصتنا
 								</Link>
 								<Link className='nav-link' to='#memes'>
-									Team
+									فريق العمل
 								</Link>
 								<Link className='nav-link' to='#deets'>
-									Projects
+									المشاريع
 								</Link>
 								<Link className='nav-link' to='#memes'>
-									Contact Us
+									تواصل معنا
 								</Link>
 							</Nav>
 						</Navbar.Collapse>
