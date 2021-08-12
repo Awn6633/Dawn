@@ -3,7 +3,6 @@ import './coming-soon.styles.css'
 import walkPng from '../../assets/walk-right.png'
 import gsap from 'gsap'
 function ComingSoon() {
-	//hi
 	const canvas = useRef(null)
 	const text = useRef(null)
 	let newEntert = true

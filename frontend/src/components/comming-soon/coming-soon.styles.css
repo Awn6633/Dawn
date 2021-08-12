@@ -1,0 +1,17 @@
+.coming-text {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	/* opacity: 0; */
+	transform: translate(-50%, -57%);
+}
+
+.coming-text span {
+	direction: rtl;
+	word-spacing: 2px;
+	font-family: var(--fontB);
+	font-size: 30px;
+	color: var(--text-color);
+	opacity: 0;
+	transform: translateY(20px);
+}

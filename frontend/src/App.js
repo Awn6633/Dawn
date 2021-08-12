@@ -6,6 +6,7 @@ import Footer from './components/footer/footer.components'
 
 import { Route } from 'react-router-dom'
 import HomePage from './pages/Home/home-page'
+import ComingSoon from './components/comming-soon/coming-soon.component'
 // axios.defaults.withCredentials = true
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
 		<div className='rtl'>
 			<TopNav />
 
-			<Route component={HomePage} to='/' />
+			<Route component={HomePage} exact path='/' />
+			<Route component={ComingSoon} exact path='/soon' />
 
 			<Footer />
 		</div>

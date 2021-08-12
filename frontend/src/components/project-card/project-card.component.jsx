@@ -4,6 +4,8 @@ import './project-card.styles.css'
 
 import { Card } from 'react-bootstrap'
 
+import { Link } from 'react-router-dom'
+
 const ProjectsCard = () => {
 	return (
 		<div className='project-card'>
@@ -16,6 +18,7 @@ const ProjectsCard = () => {
 						content.
 					</Card.Text>
 				</Card.Body>
+				<Link to='/soon' className='stretched-link' />
 			</Card>
 		</div>
 	)
